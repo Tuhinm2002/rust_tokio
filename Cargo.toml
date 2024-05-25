@@ -1,0 +1,50 @@
+[package]
+name = "my-redis"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio ={ version = "1",features = ["full"]}
+mini-redis = "0.4"
+bytes = "1.6.0"
+
+[[bin]]
+name = "hello_new"
+path = "src/hello_new.rs"
+
+[[bin]]
+name = "spawn_new"
+path = "src/spawn_new.rs"
+
+[[example]]
+name = "hello-redis"
+path = "example/hello-redis.rs"
+
+[[bin]]
+name = "process_spawn"
+path = "src/process_spawn.rs"
+
+[[bin]]
+name = "tokio_tasks"
+path = "src/tokio_task.rs"
+
+[[bin]]
+name = "tokio_bound"
+path = "src/tokio_bound.rs"
+
+[[bin]]
+name = "server"
+path = "bin/server.rs"
+
+[[bin]]
+name = "client"
+path = "bin/client.rs"
+
+[[bin]]
+name = "hello_redis_bin"
+path = "bin/hello-redis.rs"
+
+
+[[bin]]
+name = "store_stream_val"
+path = "src/store_stream_val.rs"
