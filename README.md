@@ -8,4 +8,4 @@ A flavour of asynchronous programming in rust using tokio framework
 
 
 
-![Tokio_logo svg](https://github.com/Tuhinm2002/rust_tokio/assets/75078694/d403637e-76e4-4955-8691-e4d0694a17c5)
+![Tokio_logo_white](https://github.com/Tuhinm2002/rust_tokio/assets/75078694/380306a1-8726-4d87-93e3-da923c4a8052)
